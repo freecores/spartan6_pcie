@@ -1,0 +1,6 @@
+
+-MIG core for DDR3 can use a calibration resistor (50R resistor between any BANK3 pin and Gnd). This could be added. 
+-Termination resistor can be added on CLK/CLK# pin on DDR3 
+-Control of memory CS signal could be removed (not useful) 
+-All SPI devices (Flash memory and 2x SDHC) could be on the same SPI bus 
+-SDHC cards could be used in native move rather than SPI, but require bidirectionnal io
